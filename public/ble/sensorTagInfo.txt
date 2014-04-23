@@ -1,0 +1,274 @@
+Peripheral SensorTag with UUID 49932ddb97074c838cba1c376b320ef6 found
+TX Power Level  undefined, Manufacturer undefined, Service data:  and Service UUIDs: 
+connected to peripheral
+{ uuid: '2a00',
+  name: 'Device Name',
+  properties: 'read',
+  value: '544920424c452053656e736f7220546167' }
+{ uuid: '2a01',
+  name: 'Appearance',
+  properties: 'read',
+  value: '0000' }
+{ uuid: '2a02',
+  name: 'Peripheral Privacy Flag',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: '2a03',
+  name: 'Reconnection Address',
+  properties: 'read, write',
+  value: '000000000000' }
+{ uuid: '2a04',
+  name: 'Peripheral Preferred Connection Parameters',
+  properties: 'read',
+  value: '5000a0000000e803' }
+{ uuid: '2a05', name: 'Service Changed', properties: 'indicate' }
+{ uuid: '2a23',
+  name: 'System ID',
+  properties: 'read',
+  value: '4a3eab0000296abc' }
+{ uuid: '2a24',
+  name: 'Model Number String',
+  properties: 'read',
+  value: '4e2e412e00' }
+{ uuid: '2a25',
+  name: 'Serial Number String',
+  properties: 'read',
+  value: '4e2e412e00' }
+{ uuid: '2a26',
+  name: 'Firmware Revision String',
+  properties: 'read',
+  value: '312e3031202846656220203720323031332900' }
+{ uuid: '2a27',
+  name: 'Hardware Revision String',
+  properties: 'read',
+  value: '4e2e412e00' }
+{ uuid: '2a28',
+  name: 'Software Revision String',
+  properties: 'read',
+  value: '4e2e412e00' }
+{ uuid: '2a29',
+  name: 'Manufacturer Name String',
+  properties: 'read',
+  value: '546578617320496e737472756d656e747300' }
+{ uuid: '2a2a',
+  name: 'IEEE 11073-20601 Regulatory Certification Data List',
+  properties: 'read',
+  value: 'fe006578706572696d656e74616c' }
+{ uuid: '2a50',
+  name: 'PnP ID',
+  properties: 'read',
+  value: '010d0000001001' }
+{ uuid: 'f000aa0104514000b000000000000000',
+  name: null,
+  descriptor: 'IR Temp. Data',
+  properties: 'read, notify',
+  value: '00000000' }
+{ uuid: 'f000aa0204514000b000000000000000',
+  name: null,
+  descriptor: 'IR Temp. Conf.',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: 'f000aa1104514000b000000000000000',
+  name: null,
+  descriptor: 'Accel. Data',
+  properties: 'read, notify',
+  value: '000000' }
+{ uuid: 'f000aa1204514000b000000000000000',
+  name: null,
+  descriptor: 'Accel. Conf.',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: 'f000aa1304514000b000000000000000',
+  name: null,
+  descriptor: 'Acc. Period',
+  properties: 'read, write',
+  value: '64' }
+{ uuid: 'f000aa2104514000b000000000000000',
+  name: null,
+  descriptor: 'Humid. Data',
+  properties: 'read, notify',
+  value: '00000000' }
+{ uuid: 'f000aa2204514000b000000000000000',
+  name: null,
+  descriptor: 'Humid. Conf.',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: 'f000aa3104514000b000000000000000',
+  name: null,
+  descriptor: 'Mag. Data',
+  properties: 'read, notify',
+  value: '000000000000' }
+{ uuid: 'f000aa3204514000b000000000000000',
+  name: null,
+  descriptor: 'Mag. Conf.',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: 'f000aa3304514000b000000000000000',
+  name: null,
+  descriptor: 'Mag. Period',
+  properties: 'read, write',
+  value: 'c8' }
+{ uuid: 'f000aa4104514000b000000000000000',
+  name: null,
+  descriptor: 'Barometer Data',
+  properties: 'read, notify',
+  value: '00000000' }
+{ uuid: 'f000aa4204514000b000000000000000',
+  name: null,
+  descriptor: 'Barometer Conf.',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: 'f000aa4304514000b000000000000000',
+  name: null,
+  descriptor: 'Barometer Cali.',
+  properties: 'read',
+  value: '00000000000000000000000000000000' }
+{ uuid: 'f000aa5104514000b000000000000000',
+  name: null,
+  descriptor: 'Gyro. Data',
+  properties: 'read, notify',
+  value: '000000000000' }
+{ uuid: 'f000aa5204514000b000000000000000',
+  name: null,
+  descriptor: 'Gyro. Conf.',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: 'ffe1',
+  name: null,
+  descriptor: 'Key Press State',
+  properties: 'notify' }
+{ uuid: 'f000aa6104514000b000000000000000',
+  name: null,
+  descriptor: 'Test Data',
+  properties: 'read',
+  value: '3f00' }
+{ uuid: 'f000aa6204514000b000000000000000',
+  name: null,
+  descriptor: 'Test Config',
+  properties: 'read, write',
+  value: '00' }
+{ uuid: 'f000ffc104514000b000000000000000',
+  name: null,
+  descriptor: 'Img Identify',
+  properties: 'writeWithoutResponse, write, notify' }
+{ uuid: 'f000ffc204514000b000000000000000',
+  name: null,
+  descriptor: 'Img Block',
+  properties: 'writeWithoutResponse, write, notify' }
+
+
+
+
+1800 (Generic Access)
+  2a00 (Device Name)
+    properties  read
+    value       544920424c452053656e736f7220546167 | 'TI BLE Sensor Tag'
+  2a01 (Appearance)
+    properties  read
+    value       0000 | ''
+  2a02 (Peripheral Privacy Flag)
+    properties  read, write
+    value       00 | ''
+  2a03 (Reconnection Address)
+    properties  read, write
+    value       000000000000 | ''
+  2a04 (Peripheral Preferred Connection Parameters)
+    properties  read
+    value       5000a0000000e803 | 'P h'
+1801 (Generic Attribute)
+  2a05 (Service Changed)
+    properties  indicate
+180a (Device Information)
+  2a23 (System ID)
+    properties  read
+    value       4a3eab0000296abc | 'J>+)j<'
+  2a24 (Model Number String)
+    properties  read
+    value       4e2e412e00 | 'N.A.'
+  2a25 (Serial Number String)
+    properties  read
+    value       4e2e412e00 | 'N.A.'
+  2a26 (Firmware Revision String)
+    properties  read
+    value       312e3031202846656220203720323031332900 | '1.01 (Feb  7 2013)'
+  2a27 (Hardware Revision String)
+    properties  read
+    value       4e2e412e00 | 'N.A.'
+  2a28 (Software Revision String)
+    properties  read
+    value       4e2e412e00 | 'N.A.'
+  2a29 (Manufacturer Name String)
+    properties  read
+    value       546578617320496e737472756d656e747300 | 'Texas Instruments'
+  2a2a (IEEE 11073-20601 Regulatory Certification Data List)
+    properties  read
+    value       fe006578706572696d656e74616c | '~experimental'
+  2a50 (PnP ID)
+    properties  read
+'   value       010d0000001001 | '
+f000aa0004514000b000000000000000
+  f000aa0104514000b000000000000000 (IR Temp. Data)
+    properties  read, notify
+    value       00000000 | ''
+  f000aa0204514000b000000000000000 (IR Temp. Conf.)
+    properties  read, write
+    value       00 | ''
+f000aa1004514000b000000000000000
+  f000aa1104514000b000000000000000 (Accel. Data)
+    properties  read, notify
+    value       000000 | ''
+  f000aa1204514000b000000000000000 (Accel. Conf.)
+    properties  read, write
+    value       00 | ''
+  f000aa1304514000b000000000000000 (Acc. Period)
+    properties  read, write
+    value       64 | 'd'
+f000aa2004514000b000000000000000
+  f000aa2104514000b000000000000000 (Humid. Data)
+    properties  read, notify
+    value       00000000 | ''
+  f000aa2204514000b000000000000000 (Humid. Conf.)
+    properties  read, write
+    value       00 | ''
+f000aa3004514000b000000000000000
+  f000aa3104514000b000000000000000 (Mag. Data)
+    properties  read, notify
+    value       000000000000 | ''
+  f000aa3204514000b000000000000000 (Mag. Conf.)
+    properties  read, write
+    value       00 | ''
+  f000aa3304514000b000000000000000 (Mag. Period)
+    properties  read, write
+    value       c8 | 'H'
+f000aa4004514000b000000000000000
+  f000aa4104514000b000000000000000 (Barometer Data)
+    properties  read, notify
+    value       00000000 | ''
+  f000aa4204514000b000000000000000 (Barometer Conf.)
+    properties  read, write
+    value       00 | ''
+  f000aa4304514000b000000000000000 (Barometer Cali.)
+    properties  read
+    value       00000000000000000000000000000000 | ''
+f000aa5004514000b000000000000000
+  f000aa5104514000b000000000000000 (Gyro. Data)
+    properties  read, notify
+    value       000000000000 | ''
+  f000aa5204514000b000000000000000 (Gyro. Conf.)
+    properties  read, write
+    value       00 | ''
+ffe0
+  ffe1 (Key Press State)
+    properties  notify
+f000aa6004514000b000000000000000
+  f000aa6104514000b000000000000000 (Test Data)
+    properties  read
+    value       3f00 | '?'
+  f000aa6204514000b000000000000000 (Test Config)
+    properties  read, write
+    value       00 | ''
+f000ffc004514000b000000000000000
+  f000ffc104514000b000000000000000 (Img Identify)
+    properties  writeWithoutResponse, write, notify
+  f000ffc204514000b000000000000000 (Img Block)
+    properties  writeWithoutResponse, write, notify

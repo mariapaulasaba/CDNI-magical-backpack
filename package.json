@@ -1,0 +1,20 @@
+{
+  "author": "Maria Paula Saba <mariapaula.saba@gmail.com>",
+  "name": "maginal_backpack",
+  "description": "-",
+  "version": "0.0.1",
+  "dependencies": {
+    "express":"3.x",
+    "noble": "*",
+    "index": "*",
+    "async": "*",
+    "open": "*",
+    "socket.io": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
+
+
